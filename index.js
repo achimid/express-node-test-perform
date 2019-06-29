@@ -12,4 +12,4 @@ app.post('/', (req, res) => {
     res.json(repository)
 })
 
-app.listen(80)
+app.listen(process.env.PORT || 9000)
